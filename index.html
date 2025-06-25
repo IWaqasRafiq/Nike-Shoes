@@ -256,41 +256,73 @@
       <div class="about_main">
         <div class="about_image">
           <div class="about_small_image">
-            <img src="image/red_shoes1.png" onclick="functio(this)">
-            <img src="image/red_shoes2.png" onclick="functio(this)">
-            <img src="image/red_shoes3.png" onclick="functio(this)">
-            <img src="image/red_shoes3.png" onclick="functio(this)">
+            <img src="image/red_shoes1.png" onclick="functio(this)" />
+            <img src="image/red_shoes2.png" onclick="functio(this)" />
+            <img src="image/red_shoes3.png" onclick="functio(this)" />
+            <img src="image/red_shoes3.png" onclick="functio(this)" />
           </div>
           <div class="image_container">
-            <img src="image/red_shoes1.png" id="imagebox">
+            <img src="image/red_shoes1.png" id="imagebox" />
           </div>
         </div>
         <div class="about_text">
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Aliquam ullam placeat, voluptatum, nobis asperiores culpa nemo voluptas 
-                quaerat repudiandae totam veritatis provident ducimus fugiat corporis 
-                nulla eum fuga! Ea, error.voluptatum, nobis asperiores culpa nemo
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Aliquam ullam placeat, voluptatum, nobis asperiores culpa nemo voluptas 
-                quaerat repudiandae totam veritatis provident ducimus fugiat corporis 
-                nulla eum fuga! Ea, error.voluptatum, nobis asperiores culpa nemo
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Aliquam ullam placeat, voluptatum, nobis asperiores culpa nemo voluptas 
-                quaerat repudiandae totam veritatis provident ducimus fugiat corporis 
-                nulla eum fuga! Ea, error.voluptatum, nobis asperiores culpa nemo
-            </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam
+            ullam placeat, voluptatum, nobis asperiores culpa nemo voluptas
+            quaerat repudiandae totam veritatis provident ducimus fugiat
+            corporis nulla eum fuga! Ea, error.voluptatum, nobis asperiores
+            culpa nemo Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Aliquam ullam placeat, voluptatum, nobis asperiores culpa nemo
+            voluptas quaerat repudiandae totam veritatis provident ducimus
+            fugiat corporis nulla eum fuga! Ea, error.voluptatum, nobis
+            asperiores culpa nemo Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Aliquam ullam placeat, voluptatum, nobis
+            asperiores culpa nemo voluptas quaerat repudiandae totam veritatis
+            provident ducimus fugiat corporis nulla eum fuga! Ea,
+            error.voluptatum, nobis asperiores culpa nemo
+          </p>
         </div>
       </div>
       <a href="#" class="about_btn">Shop now</a>
 
       <script>
         function functio(small) {
-            let full = document.getElementById("imagebox")
-            full.src = small.src
-            
+          let full = document.getElementById("imagebox");
+          full.src = small.src;
         }
       </script>
+    </div>
+
+    <!-- Review -->
+    <div class="review" id="Review">
+      <h1>Customer's<span>Review</span></h1>
+      <div class="review_box">
+        <div class="review_card">
+          <div class="card_top">
+            <div class="profile">
+              <div class="profile_image">
+                <img src="image/girl_dp1.jpg" alt="" />
+              </div>
+              <div class="name">
+                <strong>Emma Watson</strong>
+                <div class="like">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="comment">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Officia architecto maiores sunt, obcaecati alias vitae est 
+              saepe libero ad exercitationem distinctio nesciunt nostrum corrupti commodi 
+              fugit odit assumenda tempora facere.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
